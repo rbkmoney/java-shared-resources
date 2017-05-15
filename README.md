@@ -73,3 +73,7 @@
 1. Dockerfile
 1. git.properties
 1. logback-spring.xml
+
+
+### Управление уровнем логирования
+- https://rbkmoney.atlassian.net/browse/BJ-155
