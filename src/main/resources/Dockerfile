@@ -4,7 +4,7 @@ MAINTAINER @project.maintainer@
 
 COPY @artifactId@-@version@.jar /opt/@artifactId@/@artifactId@.jar
 
-CMD ["java", "-Xmx256m", "-jar","/opt/@artifactId@/@artifactId@.jar"]
+CMD ["java", "-jar", "/opt/@artifactId@/@artifactId@.jar"]
 
 EXPOSE @exposed.ports@
 
